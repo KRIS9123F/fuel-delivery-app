@@ -1,0 +1,27 @@
+[36mvite v7.3.1 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32m✓[39m 1767 modules transformed.
+
+---STDERR---
+[31m✗[39m Build failed in 1.91s
+[31merror during build:
+[31msrc/pages/StationDashboard.jsx (5:9): "getStationDeliveryPersons" is not exported by "src/firebase/stations.js", imported by "src/pages/StationDashboard.jsx".[31m
+file: [36mC:/Users/Krishna/OneDrive/Desktop/Hacksena/fuel-delivery-app/src/pages/StationDashboard.jsx:5:9[31m
+[33m
+3: import { useAuth } from '../context/AuthContext'
+4: import { listenToStationOrders, updateOrderStatus, assignDeliveryPerson } from '../firebase/orders'
+5: import { getStationDeliveryPersons, updateStationStatus } from '../firebase/stations'
+            ^
+6: import { mockDeliveryPersons } from '../utils/mockData'
+7: import Navbar from '../components/ui/Navbar'
+[31m
+    at getRollupError (file:///C:/Users/Krishna/OneDrive/Desktop/Hacksena/fuel-delivery-app/node_modules/rollup/dist/es/shared/parseAst.js:402:41)
+    at error (file:///C:/Users/Krishna/OneDrive/Desktop/Hacksena/fuel-delivery-app/node_modules/rollup/dist/es/shared/parseAst.js:398:42)
+    at Module.error (file:///C:/Users/Krishna/OneDrive/Desktop/Hacksena/fuel-delivery-app/node_modules/rollup/dist/es/shared/node-entry.js:17040:16)
+    at Module.traceVariable (file:///C:/Users/Krishna/OneDrive/Desktop/Hacksena/fuel-delivery-app/node_modules/rollup/dist/es/shared/node-entry.js:17452:29)
+    at ModuleScope.findVariable (file:///C:/Users/Krishna/OneDrive/Desktop/Hacksena/fuel-delivery-app/node_modules/rollup/dist/es/shared/node-entry.js:15070:39)
+    at FunctionScope.findVariable (file:///C:/Users/Krishna/OneDrive/Desktop/Hacksena/fuel-delivery-app/node_modules/rollup/dist/es/shared/node-entry.js:5673:38)
+    at FunctionBodyScope.findVariable (file:///C:/Users/Krishna/OneDrive/Desktop/Hacksena/fuel-delivery-app/node_modules/rollup/dist/es/shared/node-entry.js:5673:38)
+    at ReturnValueScope.findVariable (file:///C:/Users/Krishna/OneDrive/Desktop/Hacksena/fuel-delivery-app/node_modules/rollup/dist/es/shared/node-entry.js:5673:38)
+    at FunctionBodyScope.findVariable (file:///C:/Users/Krishna/OneDrive/Desktop/Hacksena/fuel-delivery-app/node_modules/rollup/dist/es/shared/node-entry.js:5673:38)
+    at Identifier.bind (file:///C:/Users/Krishna/OneDrive/Desktop/Hacksena/fuel-delivery-app/node_modules/rollup/dist/es/shared/node-entry.js:5447:40)[39m

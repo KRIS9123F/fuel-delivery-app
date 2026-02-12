@@ -1,0 +1,45 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Users can read/write their own data
+    match /users/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // Anyone authenticated can read stations; only station owners can write
+    match /fuelStations/{stationId} {
+      allow read: if request.auth != null;
+      allow write: if request.auth != null &&
+                      get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == "station_owner";
+    }
+
+    // Orders: users read their own, stations read assigned, delivery persons read assigned
+    match /fuelRequests/{orderId} {
+      allow read: if request.auth != null &&
+                     (resource.data.userId == request.auth.uid ||
+                      resource.data.stationId == request.auth.uid ||
+                      resource.data.deliveryPersonId == request.auth.uid);
+      allow create: if request.auth != null;
+      allow update: if request.auth != null;
+    }
+
+    // Live tracking: readable by authenticated users, writable by delivery persons
+    match /liveTracking/{orderId} {
+      allow read: if request.auth != null;
+      allow write: if request.auth != null;
+    }
+
+    // Delivery persons: readable by all authenticated, writable by self
+    match /deliveryPersons/{personId} {
+      allow read: if request.auth != null;
+      allow write: if request.auth != null && request.auth.uid == personId;
+    }
+
+    // Notifications: users read their own
+    match /notifications/{notifId} {
+      allow read: if request.auth != null && resource.data.userId == request.auth.uid;
+      allow create: if request.auth != null;
+    }
+  }
+}
