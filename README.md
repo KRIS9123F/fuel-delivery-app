@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=35&pause=1000&color=F97316&center=true&vCenter=true&width=700&lines=⛽+FuelRescue;On-Demand+Fuel+Delivery;Built+at+Hacksena+Hackathon+🏆" alt="FuelRescue Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=35&pause=1000&color=F97316&center=true&vCenter=true&width=700&lines=⛽+FuelRescue;On-Demand+Fuel+Delivery;Team+Hacksena+%40+HackSavvy-26+🏆" alt="FuelRescue Typing SVG" />
 
 <br/>
 
@@ -270,7 +270,7 @@ FuelRescue uses a **pump staff delivery model**:
 
 <div align="center">
 
-Built with ❤️ for **Hacksena Hackathon** 🏆
+Built with ❤️ by **Team Hacksena** at **HackSavvy-26** 🏆
 
 <br/>
 
@@ -286,7 +286,7 @@ Built with ❤️ for **Hacksena Hackathon** 🏆
 <br/>
 
 ![Team](https://img.shields.io/badge/Team_Size-6_Members-F97316?style=for-the-badge)
-![Hackathon](https://img.shields.io/badge/Event-Hacksena_🏆-purple?style=for-the-badge)
+![Hackathon](https://img.shields.io/badge/Event-HackSavvy--26_🏆-purple?style=for-the-badge)
 ![Built With](https://img.shields.io/badge/Built_With-❤️_&_☕-red?style=for-the-badge)
 
 </div>
@@ -301,7 +301,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-*Made with ❤️ by the FuelRescue Team at Hacksena*
+*Made with ❤️ by Team Hacksena at HackSavvy-26*
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1000&color=F97316&center=true&vCenter=true&width=500&lines=Thanks+for+checking+out+FuelRescue!+⛽;Star+⭐+the+repo+if+you+found+it+useful!" alt="Footer Typing SVG" />
 
