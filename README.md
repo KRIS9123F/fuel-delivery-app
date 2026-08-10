@@ -17,7 +17,7 @@
 
 <br/>
 
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Click_Here-F97316?style=for-the-badge)](https://fuel-delivery-app-seven.vercel.app)
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Click_Here-F97316?style=for-the-badge)](https://fuel-delivery-app-github.vercel.app)
 
 </div>
 
