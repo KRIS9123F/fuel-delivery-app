@@ -74,7 +74,7 @@
 ### ▶️ Option 1: Visit the Live Website (Recommended)
 
 1. Open any modern browser (Chrome, Firefox, Edge, Safari)
-2. Go to: **[https://fuel-delivery-app-seven.vercel.app](https://fuel-delivery-app-seven.vercel.app)**
+2. Go to: **[https://fuel-delivery-app-github.vercel.app](https://fuel-delivery-app-github.vercel.app)**
 3. Click **"Get Started"** on the landing page
 4. Sign in using **Google** or create an account with your **email**
 5. Allow location access when prompted — the app will detect real petrol pumps near you
@@ -95,7 +95,7 @@
 #### Step 1 — Clone the Repository
 
 ```bash
-git clone https://github.com/KRISHNAapp123F/fuel-delivery-app.git
+git clone https://github.com/KRIS9123F/fuel-delivery-app.git
 cd fuel-delivery-app
 ```
 
